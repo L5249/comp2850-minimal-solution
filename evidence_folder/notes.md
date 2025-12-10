@@ -180,3 +180,52 @@ time | task | observation | issue_tag | severity | Signature
 - "When I use only my keyboard, I want every feature to be usable so if any hardware issues arise then I can continue doing my work just as efficiently"
 - "When creating my task manager, I want it to be accessible to everyone, so people with disablities are still able to use the app too."
 
+# Extracting situations and needs from interviews
+
+- Situation: Notes and tasks being all over the place and jumbled  
+- Need: Organisation system to stop jumbling
+- Evidence: P-A notes Q1
+
+- Situation: When lists get so long tasks get forgotten
+- Need: Prioritiastion or filtering sytem 
+- Evidence: P-A Q2
+
+- Situation: No way of adding priority 
+- Need: priority tagging when adding tasks
+- Evidence: P-A Q2
+
+- Situation: Important tasks get lost 
+- Need: Visibilty of tasks and task separation
+- Evidence: P-A Q3
+
+- Situation: Unable to use app with eyes closed
+- Need: Add some sort of assistive feature for non-visual/low vision use 
+- Evidence: P-A Q5, P-B Q5
+
+- Situation: When in bright sunlight
+- Need: Add a high contast mode
+- Evidence: P-A Q5, P-B Q5
+
+- Situation: Large tasks becoming unmanagable
+- Need:A real sub task structure 
+- Evidence: P-B Q2
+
+- Situation: Tracking progress of large tasks
+- Need: Some sort of subtask progress indicator
+- Evidence: P-B Q2
+
+- Situation: Important task get lost in long task lists
+- Need: A filtering system for incomplete items
+- Evidence: P-B Q3
+
+- Situation: When using a keyboard only workflow
+- Need: Accessibility for both keyboard and mouse when doing all of the main actions
+- Evidence: P-B Q4
+
+- Situation: Tasks getting too big for one card
+- Need: heirachy within tasks
+- Evidence: P-B Q6 
+
+
+
+
