@@ -110,14 +110,14 @@ time | task | observation | issue_tag | severity | Signature
 ---
 
 ### Q2: What frustrates you?
-**Response**: "When working, I feel like there should be some hierarchical structure, for instance one main task, with sub tasks and the card should have a progress bar of how many sub tasks have been completed." (Me: "So why is this frustrating?") "Once task get slightly too complex it just turns into one massive task list for one task, where things aren't truely broken down so progress can't be tracked as clearly"
+**Response**: "When working, I feel like there should be some hierarchical structure, for instance one main task, with sub tasks and the card should have a progress bar of how many sub tasks have been completed." (Me: "So why is this frustrating?") "Once task get slightly too complex it just turns into one massive task list for one task, where things aren't truely broken down so progress can't be tracked as clearly. Also when I make any changes, I don't get any feedback when the task is added updated ext,I would like some confirmation. "
 
 **Observations**:
 - Lack of structure
 - Organisation on large tasks can slip
-- A fix for this could be to introduce a subtask system 
+- editing task need some sort of confirmation so the user knows that the action is actually completed. 
 
-**Themes**: `subtasks`, `organisation`, `structure`
+**Themes**: `subtasks`, `organisation`, `structure`, `confirmation`
 
 ---
 
@@ -212,6 +212,10 @@ time | task | observation | issue_tag | severity | Signature
 
 - Situation: Tracking progress of large tasks
 - Need: Some sort of subtask progress indicator
+- Evidence: P-B Q2
+
+- Situation: No confirmation when tasks are added, deleted or edited
+- Need: A small pop up to let the user know the action is complete
 - Evidence: P-B Q2
 
 - Situation: Important task get lost in long task lists
