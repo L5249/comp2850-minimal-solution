@@ -1,0 +1,6 @@
+id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,candidate_fix
+1,a system to add priorities,stories.md#S1,Job Story,Prioritisation,Usability,Medium,Cognitive,notes.md#P-A_Q2_Q3,loses important tasks,false
+2,progress tracking subtasks,stories.md#S2,Job Story,Task Structure,Usability,Medium,Cognitive,notes.md#P-B-Q2_Q3,large tasks can get too much for users,false
+3,full keyboard access,stories.md#S3,Job Story,keyboard access,Accessibility,High,keyboard_motor,notes.md#P-B-Q4,main actions fail without a mouse,false
+4,High contrast in sunlight,stories.md#S4,Job story,Contrast,Accessibility,Medium,Low vision,notes.md#P-A-Q5.notes.md#P-B-Q5,light mode outside causes glare, true
+5,confirmation after action,stories.md#S5,Job story,Confirmation feedback,Accessibility,Medium,Cognitive,notes.md#P-B-Q2,Lack of confirmation causes double checks,true

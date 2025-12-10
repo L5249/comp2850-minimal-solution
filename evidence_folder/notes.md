@@ -184,51 +184,51 @@ time | task | observation | issue_tag | severity | Signature
 
 - Situation: Notes and tasks being all over the place and jumbled  
 - Need: Organisation system to stop jumbling
-- Evidence: P-A notes Q1
+- Evidence: P-A notes L16
 
 - Situation: When lists get so long tasks get forgotten
 - Need: Prioritiastion or filtering sytem 
-- Evidence: P-A Q2
+- Evidence: P-A L27
 
 - Situation: No way of adding priority 
 - Need: priority tagging when adding tasks
-- Evidence: P-A Q2
+- Evidence: P-A L27
 
 - Situation: Important tasks get lost 
 - Need: Visibilty of tasks and task separation
-- Evidence: P-A Q3
+- Evidence: P-A L39
 
 - Situation: Unable to use app with eyes closed
 - Need: Add some sort of assistive feature for non-visual/low vision use 
-- Evidence: P-A Q5, P-B Q5
+- Evidence: P-A L60, P-B L149
 
 - Situation: When in bright sunlight
 - Need: Add a high contast mode
-- Evidence: P-A Q5, P-B Q5
+- Evidence: P-A L60, P-B L149
 
 - Situation: Large tasks becoming unmanagable
 - Need:A real sub task structure 
-- Evidence: P-B Q2
+- Evidence: P-B L113
 
 - Situation: Tracking progress of large tasks
 - Need: Some sort of subtask progress indicator
-- Evidence: P-B Q2
+- Evidence: P-B L113
 
 - Situation: No confirmation when tasks are added, deleted or edited
 - Need: A small pop up to let the user know the action is complete
-- Evidence: P-B Q2
+- Evidence: P-B L113
 
 - Situation: Important task get lost in long task lists
 - Need: A filtering system for incomplete items
-- Evidence: P-B Q3
+- Evidence: P-B L125
 
 - Situation: When using a keyboard only workflow
 - Need: Accessibility for both keyboard and mouse when doing all of the main actions
-- Evidence: P-B Q4
+- Evidence: P-B L137
 
 - Situation: Tasks getting too big for one card
 - Need: heirachy within tasks
-- Evidence: P-B Q6 
+- Evidence: P-B L160 
 
 
 
