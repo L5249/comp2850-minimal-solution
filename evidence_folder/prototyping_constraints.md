@@ -3,13 +3,13 @@
 - History: List doesn't revert
 - 
 
-## Trade Off Notes
+## Trade Off Notes - Week 8
 
 ### Full Page renders vs HTMX fragments
 - Benefit: No Js support with faster HTMX updates
 - Cost: Two rendering paths
 
-### Accessibility Hoos
+### Accessibility Hooks
 - live regions mean screen readers work
 - focus needs to be managed after HTMX swaps
 - announced result reduces cognitive load for reader
