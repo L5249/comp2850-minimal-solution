@@ -1,7 +1,7 @@
 # Testing Notes — Week 7 Lab 1
 
 ## HTMX Path
-**Date**: [YYYY-MM-DD]
+**Date**: [2025-11-17]
 **Browser**: Chrome 120.0
 **JavaScript**: Enabled
 
@@ -25,7 +25,7 @@
 ---
 
 ## No-JS Path
-**Date**: [YYYY-MM-DD]
+**Date**: [2025-11-17]
 **Browser**: Chrome 120.0
 **JavaScript**: Disabled
 
@@ -42,39 +42,13 @@
 ---
 
 ## Keyboard Testing
-**Date**: [YYYY-MM-DD]
+**Date**: [2025-11-17]
 **Input**: Keyboard only (no mouse)
 
 ### Test: Tab navigation
 - **Path**: Tab → "Edit" → Enter → Title input (autofocus) → Tab → "Save" → Enter
 - **Result**: ✅ Focus order logical, all buttons reachable
 - **Focus indicators**: ✅ Visible outline on all elements
-
----
-
-## Screen Reader Testing
-**Date**: [YYYY-MM-DD]
-**Tool**: NVDA 2024.1 (Windows 11)
-
-### Test: Edit button announcement
-- **Navigated to**: "Edit" button
-- **NVDA said**: "Edit task: Buy milk, button"
-- **Result**: ✅ Contextual label announced
-
-### Test: Input field announcement
-- **Activated**: Edit button (Enter)
-- **NVDA said**: "Title, edit, Keep it short and specific, Buy milk"
-- **Result**: ✅ Label + hint + value announced
-
-### Test: Error announcement
-- **Action**: Deleted title, pressed Save
-- **NVDA said**: "Title is required. Please enter at least one character, alert"
-- **Result**: ✅ Error announced immediately (assertive)
-
-### Test: Status message announcement
-- **Action**: Saved valid title
-- **NVDA said**: "Task 'New title' updated successfully"
-- **Result**: ✅ Status announced (polite, didn't interrupt)
 
 ---
 
@@ -86,4 +60,4 @@ None. All tests passed.
 |-----------|--------|----------|
 | 2.1.1 Keyboard (A) | ✅ Pass | All features accessible via Tab/Enter |
 | 3.3.1 Error Identification (A) | ✅ Pass | Error message explicit, aria-describedby links input |
-| 4.1.3 Status Messages (AA) | ✅ Pass | Live region announces success without focus change |
+

@@ -4,3 +4,6 @@ id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,c
 3,full keyboard access,stories.md#S3,Job Story,keyboard access,Accessibility,High,keyboard_motor,notes.md#P-B-Q4,main actions fail without a mouse,false
 4,High contrast in sunlight,stories.md#S4,Job story,Contrast,Accessibility,Medium,Low vision,notes.md#P-A-Q5.notes.md#P-B-Q5,light mode outside causes glare, true
 5,confirmation after action,stories.md#S5,Job story,Confirmation feedback,Accessibility,Medium,Cognitive,notes.md#P-B-Q2,Lack of confirmation causes double checks,true
+6,Delete button text contrast 4.2:1,axe-report.md#Issue2,WCAG violation,Visibility,Accessibility,High,"Low vision,Situational","axe: color-contrast; WCAG 1.4.3",change default pico to white colour,true
+7,Focus outline too close to main colour,WCAG-checklist.md#2.4.7,WCAG fail,Visibility,Accessibility,Medium,Keyboard,"Manual test: outline visible but faint","Add custom :focus with thinker outline and more contrast(#0172AD on #181C25 = 3.25:1),true
+8,No confirmation for delete action,heuristics.mdH3,Heuristic violation,Error prevention,Usability,Medium,"Motor,Cognitive","Nielsen H3 + H5","Accidental clicks cause permanent deletion; add confirmation dialog",false

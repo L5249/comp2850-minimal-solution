@@ -54,6 +54,11 @@
     button {
       color: white !important; /* White text on blue background for better contrast */
     }
+    :focus {
+    outline: 3px solid #000;     
+    outline-offset: 4px;
+    }
+
   </style>
 </head>
 <body>
