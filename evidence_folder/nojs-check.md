@@ -101,7 +101,7 @@
 
 **Evidence**: Screenshot of updated task.
 
-**Result**: [x] Pass  [ ] Fail
+**Result**: [] Pass  [x] Fail
 
 ---
 
@@ -166,8 +166,8 @@
 
 ## Summary
 
-**Passed**:8 / 8
-**Failed**: 8 / 8
+**Passed**:7 / 8
+**Failed**: 1/ 8
 
 **Issues found**: (log in `backlog/backlog.csv` with IDs wk8-XX)
 
