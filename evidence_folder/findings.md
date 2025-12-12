@@ -49,7 +49,7 @@ Editing works but participants always needed to check if things had actually sav
 ### Task 4: Delete Task
 | Metric | HTMX (n=2) | No-JS (n=1) | Overall |
 |--------|------------|-------------|----------|
-| Mean time (s) | ~11 | 39 | ~23 |
+| Mean time (s) | 11 | 39 | 23 |
 | Success rate | 100% | 100% | 100% |
 | Mean errors | 0 | 0 | 0 |
 | Mean confidence | 3/5 | 3/5 | 3/5 |

@@ -7,7 +7,7 @@
 **Type**: Low-risk formative evaluation, peer-to-peer within module.
 
 **Scope**:
-- 5–6 participants (lab pairs)
+- 3 participants
 - 4 tasks per session (~15–20 minutes)
 - No audio/video recording
 - No personally identifiable information collected

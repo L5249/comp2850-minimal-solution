@@ -1,0 +1,111 @@
+# Quantitative Analysis — Week 10
+
+Participants: 3 (2 HTMX, 1 No-JS)  
+Date: 2025-12-11
+
+---
+
+## Task Success Rates
+
+| Task | HTMX Success | No-JS Success | Overall |
+|------|--------------|---------------|---------|
+| T1: Filter | 100% (2/2) | 100% (1/1) | 100% |
+| T2: Add (Twice) | 100% (2/2) | 100% (1/1) | 100% |
+| T3: Edit | 100% (2/2) | 0% (0/1) | 66% |
+| T4: Delete | 100% (2/2) | 100% (1/1) | 100% |
+
+Interpretation:  
+T3 (Edit) fails completely in No-JS mode.
+
+---
+
+## Mean Time-on-Task
+
+### HTMX Participants (P1, P3)
+
+| Task | P1 Time (s) | P3 Time (s) | HTMX Mean |
+|------|-------------|-------------|------------|
+| T1 Filter | 19, 8, 6, 4, 7 → 8.8s | 36, 11 → 23.5s | 16.1s |
+| T2 Add | 9, 15 → 12s | 33, 29 → 31s | 21.5s |
+| T3 Edit | 4 | 38 | 21s |
+| T4 Delete | 4 | 38 | 21s |
+
+### No-JS Participant (P2)
+
+| Task | Time (s) |
+|------|----------|
+| T1 Filter | 28, 32 → 30s mean |
+| T2 Add | 27.5s |
+| T3 Edit | 58s |
+| T4 Delete | 39s |
+
+### Combined Means
+
+| Task | HTMX Mean | No-JS Mean | Overall Mean |
+|------|-----------|------------|---------------|
+| T1 Filter | 16.1s | 30s | 22s |
+| T2 Add | 21.5s | 27.5s | 23.5s |
+| T3 Edit | 21s | 58s | 33.2s |
+| T4 Delete | 21s | 39s | 27s |
+
+Interpretation:  
+Users with HTMX complete tasks quicker, even keyboard only as with nojs the page reloads each time.
+
+---
+
+## Error Rates
+
+
+| Task | Error Rate | Notes |
+|------|-----------|-------|
+| T1 Filter | 0% | No validation errors triggered |
+| T2 Add | 0% | All submissions valid |
+| T3 Edit | 0% | No invalid input, but edit fails in no-JS |
+| T4 Delete | 0% | no errors|
+
+Interpretation:  
+- Filter and Add flows are good.  
+- Edit’s works great exept for in no js.  
+
+---
+
+## Confidence Ratings
+
+### HTMX Participants (P1 + P3)
+
+| Task | P1 | P3 | HTMX Mean |
+|------|----|----|------------|
+| T1 Filter | 4 | 4 | 4 |
+| T2 Add | 5 | 3 | 4 |
+| T3 Edit | 5 | 3 | 4 |
+| T4 Delete | 4 | 3 | 3.5 |
+
+### No-JS Participant (P2)
+
+| Task | Confidence |
+|------|-------------|
+| T1 Filter | 3 |
+| T2 Add | 3 |
+| T3 Edit | 2 |
+| T4 Delete | 3 |
+
+### Combined Means
+
+| Task | HTMX Mean | No-JS Mean | Overall Mean |
+|------|-----------|------------|--------------|
+| T1 Filter | 4 | 3 | 3.67 |
+| T2 Add | 4 | 3 | 3.67 |
+| T3 Edit | 4 | 2 | 3 |
+| T4 Delete | 3.5 | 3 | 3.33 |
+
+Interpretation:  
+Confidence is fairly low due to the missing validation afterwards, and even lower on no js due to the page reloads cauing more confusion
+
+---
+
+## Summary
+
+- HTMX is faster across all tasks.  
+- Edit fails completely in No-JS mode.  
+- Missing confirmation messages reduces confidence  
+
